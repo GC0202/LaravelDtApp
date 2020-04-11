@@ -40,6 +40,7 @@ abstract class Service
     public function __construct(App $app)
     {
         $this->app =$app;
+        $this->initialize();
     }
 
     /**
@@ -57,6 +58,6 @@ abstract class Service
      * @throws BindingResolutionException
      */
     public function instance(...$args){
-        return Container::getInstance()->make(static::class,$args);
+        return Container::getInstance()->make(static::class, $args);
     }
 }
