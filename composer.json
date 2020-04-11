@@ -20,7 +20,8 @@
   "homepage": "https://www.dtapp.net",
   "require": {
     "php": ">=7.0",
-    "laravel/framework": "^7.0"
+    "laravel/framework": "^7.0",
+    "liguangchun/ip": "^1.1"
   },
   "autoload": {
     "files": [

@@ -14,6 +14,9 @@
 // | Packagist 地址 ：https://packagist.org/packages/liguangchun/laravel-library
 // +----------------------------------------------------------------------
 
+use DtApp\Ip\IpException;
+use DtApp\Ip\QqWry;
+
 if (!function_exists('sysconf')){
     /**
      * 获取或配置系统参数
@@ -44,5 +47,28 @@ if (!function_exists('sysdata')) {
         } else {
             return (new DtApp\LaravelLibrary\service\SystemService)->setData($name, $value);
         }
+    }
+}
+
+
+if (!function_exists('getIp')){
+
+    /**
+     * 获取IP信息
+     * @return string
+     * @throws IpException
+     */
+    function getIp(){
+        $ip = '';
+        if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+            //为了兼容百度的CDN，所以转成数组
+            $arr = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
+            $ip = $arr[0];
+        } else {
+            $ip = $_SERVER['REMOTE_ADDR'];
+        }
+        $qqwry = new QqWry();
+        $info = $qqwry->getLocation($ip);
+        return $info['location_all'] . ' - ' . $info['isp']['name'];
     }
 }
