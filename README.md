@@ -2,12 +2,12 @@
 
 <h1 align="left"><a href="https://www.dtapp.net/">Laravel助手</a></h1>
 
-📦 Curl Laravel扩展包
+📦 Laravel扩展包
 
-[![Latest Stable Version](https://poser.pugx.org/liguangchun/curl/v/stable)](https://packagist.org/packages/liguangchun/curl) 
-[![Latest Unstable Version](https://poser.pugx.org/liguangchun/curl/v/unstable)](https://packagist.org/packages/liguangchun/curl) 
-[![Total Downloads](https://poser.pugx.org/liguangchun/curl/downloads)](https://packagist.org/packages/liguangchun/curl) 
-[![License](https://poser.pugx.org/liguangchun/curl/license)](https://packagist.org/packages/liguangchun/curl)
+[![Latest Stable Version](https://poser.pugx.org/liguangchun/laravel-library/v/stable)](https://packagist.org/packages/liguangchun/laravel-library) 
+[![Latest Unstable Version](https://poser.pugx.org/liguangchun/laravel-library/v/unstable)](https://packagist.org/packages/liguangchun/laravel-library) 
+[![Total Downloads](https://poser.pugx.org/liguangchun/laravel-library/downloads)](https://packagist.org/packages/liguangchun/laravel-library) 
+[![License](https://poser.pugx.org/liguangchun/laravel-library/license)](https://packagist.org/packages/liguangchun/laravel-library)
 
 ## 依赖环境
 
@@ -16,7 +16,7 @@
 ## 安装
 
 ```text
-composer require liguangchun/laravel-library ^7.0 -vvv
+composer require liguangchun/laravel-library ^7.x-dev -vvv
 ```
 
 ## 更新
