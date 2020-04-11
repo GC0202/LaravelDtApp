@@ -24,8 +24,11 @@
   },
   "autoload": {
     "files": [
-      "Helper/functions.php"
-    ]
+      "src/common.php"
+    ],
+    "psr-4": {
+      "DtApp\\LaravelLibrary\\": "src"
+    }
   },
   "repositories": {
     "packagist": {
