@@ -1,0 +1,36 @@
+{
+  "name": "liguangchun/laravel-library",
+  "description": "Laravel助手",
+  "keywords": [
+    "liguangchun",
+    "laravel-library",
+    "laravel",
+    "library"
+  ],
+  "time": "2020-04-11",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chaim",
+      "email": "gc@dtapp.net",
+      "homepage": "https://api.dtapp.net"
+    }
+  ],
+  "homepage": "https://www.dtapp.net",
+  "require": {
+    "php": ">=7.0",
+    "laravel/framework": "^7.0"
+  },
+  "autoload": {
+    "files": [
+      "Helper/functions.php"
+    ]
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
