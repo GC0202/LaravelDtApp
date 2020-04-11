@@ -14,22 +14,18 @@
 // | Packagist 地址 ：https://packagist.org/packages/liguangchun/laravel-library
 // +----------------------------------------------------------------------
 
-use DtApp\LaravelLibrary\service\SystemService;
-use Illuminate\Contracts\Container\BindingResolutionException;
-
 if (!function_exists('sysconf')){
     /**
      * 获取或配置系统参数
      * @param string $name
      * @param null $value
      * @return string
-     * @throws BindingResolutionException
      */
     function sysconf($name = '', $value = null){
         if (is_null($value) && is_string($name)) {
-            return SystemService::instance()->get($name);
+            return (new DtApp\LaravelLibrary\service\SystemService)->get($name);
         } else {
-            return SystemService::instance()->set($name, $value);
+            return (new DtApp\LaravelLibrary\service\SystemService)->set($name, $value);
         }
     }
 }
@@ -40,14 +36,13 @@ if (!function_exists('sysdata')) {
      * @param string $name 数据名称
      * @param mixed $value 数据内容
      * @return mixed
-     * @throws BindingResolutionException
      */
     function sysdata($name, $value = null)
     {
         if (is_null($value)) {
-            return SystemService::instance()->getData($name);
+            return (new DtApp\LaravelLibrary\service\SystemService)->getData($name);
         } else {
-            return SystemService::instance()->setData($name, $value);
+            return (new DtApp\LaravelLibrary\service\SystemService)->setData($name, $value);
         }
     }
 }

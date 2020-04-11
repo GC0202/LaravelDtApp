@@ -24,7 +24,7 @@ use Illuminate\Support\Facades\DB;
  * Class SystemService
  * @package DtApp\LaravelLibrary\service
  */
-class SystemService extends Service
+class SystemService
 {
 
     /**
