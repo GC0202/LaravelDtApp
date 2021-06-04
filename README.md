@@ -13,6 +13,12 @@
 [![Total Downloads](https://poser.pugx.org/dtapps/laravel-library/downloads)](https://packagist.org/packages/dtapps/laravel-library)
 [![License](https://poser.pugx.org/dtapps/laravel-library/license)](https://packagist.org/packages/dtapps/laravel-library)
 
+[comment]: <> (github.com)
+[![Release](https://img.shields.io/github/release/dtapps/laravel-library.svg?style=flat-square)](https://github.com/dtapps/laravel-library/releases)
+
+[comment]: <> (sourcegraph.com)
+[![Sourcegraph](https://sourcegraph.com/github.com/dtapps/laravel-library/-/badge.svg)](https://sourcegraph.com/github.com/dtapps/laravel-library?badge)
+
 [comment]: <> (scrutinizer-ci.com)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dtapps/laravel-library/badges/quality-score.png?b=v7)](https://scrutinizer-ci.com/g/dtapps/laravel-library/?branch=v7)
 [![Code Coverage](https://scrutinizer-ci.com/g/dtapps/laravel-library/badges/coverage.png?b=v7)](https://scrutinizer-ci.com/g/dtapps/laravel-library/?branch=v7)
