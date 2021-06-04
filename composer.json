@@ -1,11 +1,9 @@
 {
-  "name": "liguangchun/laravel-library",
-  "description": "Laravel助手",
+  "name": "dtapps/laravel-library",
+  "description": "Laravel7助手",
   "keywords": [
-    "liguangchun",
-    "laravel-library",
-    "laravel",
-    "library"
+    "dtapps",
+    "laravel-library"
   ],
   "time": "2020-04-11",
   "type": "library",
@@ -20,15 +18,17 @@
   "homepage": "https://www.dtapp.net",
   "require": {
     "php": ">=7.0",
-    "laravel/framework": "^7.0",
-    "liguangchun/ip": "^1.1"
+    "laravel/framework": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~8.0"
   },
   "autoload": {
     "files": [
       "src/common.php"
     ],
     "psr-4": {
-      "DtApp\\LaravelLibrary\\": "src"
+      "dtapps\\laravel\\library\\": "src"
     }
   },
   "repositories": {

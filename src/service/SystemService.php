@@ -3,18 +3,18 @@
 // +----------------------------------------------------------------------
 // | LaravelLibrary 7.0 for Laravel 7.0
 // +----------------------------------------------------------------------
-// | 版权所有 2017~2020 [ https://www.dtapp.net ]
+// | 版权所有 2017~2021
 // +----------------------------------------------------------------------
-// | 官方网站: https://gitee.com/liguangchun/LaravelLibrary
+// | 官方网站: https://www.dtapp.net
 // +----------------------------------------------------------------------
 // | 开源协议 ( https://mit-license.org )
 // +----------------------------------------------------------------------
-// | gitee 仓库地址 ：https://gitee.com/liguangchun/LaravelLibrary
-// | github 仓库地址 ：https://github.com/GC0202/LaravelLibrary
-// | Packagist 地址 ：https://packagist.org/packages/liguangchun/laravel-library
+// | gitee 仓库地址 ：https://gitee.com/dtapps/laravel-library
+// | github 仓库地址 ：https://github.com/dtapps/laravel-library
+// | Packagist 地址 ：https://packagist.org/packages/dtapps/laravel-library
 // +----------------------------------------------------------------------
 
-namespace DtApp\LaravelLibrary\service;
+namespace dtapps\laravel\library\service;
 
 use Exception;
 use Illuminate\Support\Facades\DB;
@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\DB;
 /**
  * 系统参数管理服务
  * Class SystemService
- * @package DtApp\LaravelLibrary\service
+ * @package dtapps\laravel\library\service
  */
 class SystemService
 {
