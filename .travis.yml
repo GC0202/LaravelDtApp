@@ -4,5 +4,4 @@ php:
   - 7.4
 
 after_script:
-  - CODECOV_TOKEN='8ab77aac-c410-4d80-aca5-c9286ecb0847'
   - bash <(curl -s https://codecov.io/bash)
