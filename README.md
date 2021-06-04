@@ -52,6 +52,9 @@
 ![php](https://badgen.net/packagist/php/dtapps/laravel-library)
 ![License (custom server) badge](https://badgen.net/packagist/l/dtapps/laravel-library?server=https%3A%2F%2Fpackagist.org)
 
+[comment]: <> (badge.fury.io)
+[![PHP version](https://badge.fury.io/ph/dtapps%2Flaravel-library.svg)](https://badge.fury.io/ph/dtapps%2Flaravel-library)
+
 [comment]: <> (github.com)
 ![Release](https://img.shields.io/github/release/dtapps/laravel-library.svg?style=flat-square)
 
