@@ -27,11 +27,5 @@
     "psr-4": {
       "dtapps\\laravel\\library\\": "src"
     }
-  },
-  "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://mirrors.aliyun.com/composer/"
-    }
   }
 }
