@@ -17,7 +17,7 @@
   ],
   "homepage": "https://www.dtapp.net",
   "require": {
-    "php": ">=7.4",
+    "php": ">=7.3",
     "laravel/framework": "^7.0"
   },
   "autoload": {
